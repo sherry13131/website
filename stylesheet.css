@@ -1,0 +1,52 @@
+p {
+	color: white
+}
+header li {
+	list-style: none;
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: red;
+	color: purple;
+}
+
+header li:nth-child(2) {
+	font-size: 24px;
+}
+
+section div:nth-child(odd) {
+	background-color: gray;
+}
+
+section div:nth-child(4):hover {
+	background-color: green;
+	cursor: pointer;
+}
+
+#box {
+	background-color: blue;
+	padding: 10px 30px 10px 30px;
+	border: 20px solid black;
+	margin: 40px;
+	width: 300px;
+	box-sizing: content-box;
+}
+
+#content {
+	background-color: #90EE90; //green
+}
+
+#content p {
+	color: black;
+	text-align: center;
+}
