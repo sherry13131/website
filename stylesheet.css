@@ -62,7 +62,9 @@ section div:nth-child(4):hover {
 }
 
 #greeting {
-	color: black;
+	color: white;
+	top: 50%;
+	left: 50%;
 }
 /*
 @media (orientation: landscape) {
