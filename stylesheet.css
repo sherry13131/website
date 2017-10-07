@@ -4,13 +4,13 @@ p {
 header li {
 	list-style: none;
 }
-a:link, a:visited {
+a:link, a:visited{
 	text-decoration: none;
 	background-color: green;
 	border: 1px solid blue;
 	color: black;
 	display: block;
-	width: 200px;
+	width: relative;
 	text-align: center;
 	margin-bottom: 1px;
 }
@@ -40,6 +40,10 @@ section div:nth-child(4):hover {
 	margin: 40px;
 	width: 300px;
 	box-sizing: content-box;
+
+	height: 50px;
+	margin-top: 50px;
+	overflow: auto;    //visible,hidden,auto,scroll
 }
 
 #content {
@@ -50,3 +54,26 @@ section div:nth-child(4):hover {
 	color: black;
 	text-align: center;
 }
+
+#bg {
+	background-image: url("pic_bg.jpg");
+	background-size: 100%
+
+}
+
+#greeting {
+	color: black;
+}
+/*
+@media (orientation: landscape) {
+
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+#media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+*/
