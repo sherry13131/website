@@ -99,7 +99,10 @@ section div:nth-child(4):hover {
 }
 
 .jumbotron {
-	max-height: 1000px;
+	background-image: url(pic_bg.jpg);
+	background-size: cover;
+	padding-bottom: 20%;
+	padding-top: 20%;
 }
 /*
 @media (orientation: landscape) {
