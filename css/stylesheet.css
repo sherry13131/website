@@ -110,7 +110,7 @@ section div:nth-child(4):hover {
 }
 
 .jumbotron {
-	background-image: url(pic_bg.png);
+	background-image: url(../pic_bg.png);
 	background-size: cover;
 	padding-bottom: 20%;
 	padding-top: 20%;
