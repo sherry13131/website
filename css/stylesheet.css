@@ -15,8 +15,6 @@ body {
 
 a:link, a:visited{
 	text-decoration: none;
-	background-color: green;
-	border: 1px solid black;
 	color: #0099FF;
 	display: block;
 	width: relative;
@@ -25,8 +23,13 @@ a:link, a:visited{
 }
 
 a:hover, a:active {
-	background-color: red;
-	color: purple;
+	color: red;
+}
+
+#home_logo {
+	border: none;
+	padding: none;
+	display: inline-block;	
 }
 
 header li:nth-child(2) {
@@ -87,6 +90,7 @@ section div:nth-child(4):hover {
 	top: 0;
 	width: 100%;
 	z-index: 99;
+	display: inline-block;
 }
 
 #navcontainer li {
