@@ -1,0 +1,31 @@
+.jumbotron {
+	background-image: url(./pic_bg.png);
+	background-size: cover;
+	padding-bottom: 20%;
+	padding-top: 20%;
+	width: 100%;
+}
+
+.jumbotron h1 {
+	color: white;
+	text-align: center;
+	/*font-family: */
+}
+
+.jumbotron p {
+	color: white;
+	text-align: center;
+	/*font-family: */
+}
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: rgba(225, 250, 255, 0.7);
+
+.navbar-default {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: black;
+}
