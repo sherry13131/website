@@ -56,32 +56,27 @@ div.box {
 }
 
 .container.left{
-	padding-left: 0px;
-	padding-right: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-}
+	height: 100%;
 
-.container.right{
-	padding-left: 0px;
-	padding-right: 0px;
-	/*margin-left: 0px;*/
-	margin-right: 0px;
-}
-
-.container #about, .container #link {
 	background: linear-gradient(to right, rgba(191, 219, 222, 1), rgba(255,0,0,0));
 	width: 100%;
 	height: 30%;
-	padding: 5% 8% 5% 8%;
+	/*padding: 5% 8% 5% 8%;*/
 }
 
-.container #project, .container #contact {
+.container.right{
 	background: linear-gradient(to right, rgba(255,0,0,0), rgba(254, 220, 222, 1));
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 100%;
 	width: 100%;
-	height: 30%;
+}
+
+div#about, div#project, div#link, div#contact {
 	padding: 5% 8% 5% 8%;
-	text-align: right;
+	height: 100vh;
 }
 
 #footer {
@@ -90,4 +85,49 @@ div.box {
 	color: grey;
 	margin: 10px;
 	margin-top: 30px;
+}
+
+.parallax {
+    background-color: black;
+    background-blend-mode: luminosity;
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1%;
+}
+
+.parallax div {
+	text-align: center;
+	width: 50%;
+	padding: 10%;	
+	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+	color: white;
+}
+
+.p1 {
+	/* The image used */
+    background-image: url("bg1.jpg");
+}
+
+.p2 {
+	/* The image used */
+    background-image: url("bg2.jpg");
+}
+
+.p3 {
+	/* The image used */
+    background-image: url("bg3.jpg");
+}
+
+.p4 {
+	/* The image used */
+    background-image: url("bg3.jpg");
 }
